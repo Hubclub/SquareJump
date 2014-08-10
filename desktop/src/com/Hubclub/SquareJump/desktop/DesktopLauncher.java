@@ -7,6 +7,9 @@ import com.Hubclub.SquareJump.SquareJumpGame;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+        config.title = "SquareJump";
+        config.height = 800;
+        config.width = 400;
 		new LwjglApplication(new SquareJumpGame(), config);
 	}
 }

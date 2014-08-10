@@ -32,9 +32,20 @@ public class World {
     }
 
     private void createWorld() {
+
+        //square
         square = new Square(new Vector2(2f,1f));
 
-        for(int i = 0; i < 5 ; i++)
+        //floor's blocks
+        for(int i = 0; i < WorldRenderer.CAMERA_WIDTH; i++)
             blocks.add(new Block(new Vector2(i,0)));
+
+        //wall's blocks
+        for(int i = 1; i < WorldRenderer.CAMERA_HEIGHT; i++) {
+            blocks.add(new Block(new Vector2(0,i))); //left wall
+            blocks.add(new Block(new Vector2(WorldRenderer.CAMERA_WIDTH - 1, i))); //right wall
+        }
+
+
     }
 }

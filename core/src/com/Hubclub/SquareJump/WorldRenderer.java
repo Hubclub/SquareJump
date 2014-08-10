@@ -10,8 +10,8 @@ import com.badlogic.gdx.math.Rectangle;
  */
 public class WorldRenderer {
 
-    private static final float CAMERA_WIDTH = 5f;
-    private static final float CAMERA_HEIGHT = 8f;
+    public static final float CAMERA_WIDTH = 5f;
+    public static final float CAMERA_HEIGHT = 10f;
 
     private World world;
     private OrthographicCamera camera;
