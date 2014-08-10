@@ -12,11 +12,14 @@ public class Square {
         GROUNDED, JUMPING, STUCK //stuck means being sticked to the wall
     }
 
+    public static boolean facingLeft = true;
+
     public static final float SIZE = 1f;
     Vector2 position = new Vector2();
     Vector2 acceleration = new Vector2();
     Vector2 velocity = new Vector2();
     Rectangle bounds = new Rectangle();
+
 
 
     public Vector2 getPosition() {
@@ -59,7 +62,10 @@ public class Square {
 
     public void update(float delta) {
         //TODO
+
+        //enable gravity
         if(position.y > 1f)
-            position.add(new Vector2(0 ,-0.1f));
+            position.add(new Vector2(0 , SquareController.GRAVITY));
+        //state = State.GROUNDED;
     }
 }

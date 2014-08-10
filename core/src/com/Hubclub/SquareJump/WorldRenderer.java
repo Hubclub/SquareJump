@@ -18,6 +18,8 @@ public class WorldRenderer {
 
     private boolean debug = false;
 
+
+
     //for debugging
     ShapeRenderer debugRenderer = new ShapeRenderer();
 
