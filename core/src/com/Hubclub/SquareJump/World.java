@@ -34,7 +34,7 @@ public class World {
     private void createWorld() {
 
         //square
-        square = new Square(new Vector2(2f,1f));
+        square = new Square(new Vector2(2f, 7f));
 
         //floor's blocks
         for(int i = 0; i < WorldRenderer.CAMERA_WIDTH; i++)

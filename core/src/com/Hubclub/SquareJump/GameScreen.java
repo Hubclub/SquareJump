@@ -38,6 +38,16 @@ public class GameScreen implements Screen, InputProcessor{
         //this.width = width;
        // this.height = height;
     }
+
+    //the actual input
+    @Override
+    public boolean touchDown(int x, int y, int pointer, int button) {
+        controller.jumpPressed();
+
+        return true;
+    }
+
+
     @Override
     public void hide() {
         Gdx.input.setInputProcessor(null);
@@ -74,10 +84,7 @@ public class GameScreen implements Screen, InputProcessor{
     }
 
 
-    @Override
-    public boolean touchDown(int x, int y, int pointer, int button) {
-        return false;
-    }
+
     @Override
     public boolean touchUp(int x, int y, int pointer, int button) {
         return false;

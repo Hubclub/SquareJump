@@ -8,11 +8,16 @@ import com.badlogic.gdx.math.Vector2;
  */
 public class Square {
 
+    public static enum State {
+        GROUNDED, JUMPING, STUCK //stuck means being sticked to the wall
+    }
+
     public static final float SIZE = 1f;
     Vector2 position = new Vector2();
     Vector2 acceleration = new Vector2();
     Vector2 velocity = new Vector2();
     Rectangle bounds = new Rectangle();
+
 
     public Vector2 getPosition() {
         return position;
@@ -54,5 +59,7 @@ public class Square {
 
     public void update(float delta) {
         //TODO
+        if(position.y > 1f)
+            position.add(new Vector2(0 ,-0.1f));
     }
 }
