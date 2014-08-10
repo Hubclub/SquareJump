@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/alexandru/IdeaProjects/SquareJump/android/build/pre-dexed/debug/gdx-box2d-1.2.0-7f0bf8f64b69e6880caae6d717389d880e6db82e.jar"
+        jar="/home/alexandru/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-box2d/1.2.0/cc39fa3dbad14b247655266c10e64367418564bd/gdx-box2d-1.2.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="cc39fa3dbad14b247655266c10e64367418564bd"/>
+    <item
+        dex="/home/alexandru/IdeaProjects/SquareJump/android/build/pre-dexed/debug/core-1.0-7d78b731a1a388574fd3de597c7ce2ab1be0c676.jar"
+        jar="/home/alexandru/IdeaProjects/SquareJump/core/build/libs/core-1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="bbf356125d2fae4c80e7716c9bc35e33d349d07d"/>
+    <item
+        dex="/home/alexandru/IdeaProjects/SquareJump/android/build/pre-dexed/debug/gdx-backend-android-1.2.0-983f31ea1670efbdd667d4cc487261a5b462995d.jar"
+        jar="/home/alexandru/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.2.0/2ed57a7d155e5060ea773eed21804a23342fb47/gdx-backend-android-1.2.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="02ed57a7d155e5060ea773eed21804a23342fb47"/>
+    <item
+        dex="/home/alexandru/IdeaProjects/SquareJump/android/build/pre-dexed/debug/gdx-1.2.0-442b9c49a21358235258d826a1b9b383bebf0abf.jar"
+        jar="/home/alexandru/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.2.0/eb55d6eb1165daf6be23189767c19d811ca5eb36/gdx-1.2.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="eb55d6eb1165daf6be23189767c19d811ca5eb36"/>
+
+</pre-dex-items>

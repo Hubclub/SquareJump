@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/alexandru/IdeaProjects/SquareJump/android/assets" >
+            <file
+                name="badlogic.jpg"
+                path="/home/alexandru/IdeaProjects/SquareJump/android/assets/badlogic.jpg" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/alexandru/IdeaProjects/SquareJump/android/src/debug/assets" />
+    </dataSet>
+
+</merger>
